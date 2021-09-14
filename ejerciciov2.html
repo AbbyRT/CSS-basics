@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link href="ejerciciov2.css" rel="stylesheet" type="text/css" />
+    <title>Aprendiendo CSS V2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Galindo&display=swap" rel="stylesheet">
+    <style>
+        div.absolute {
+            position: relative;
+            bottom: 300px;
+            left: 400px;
+            z-index: 2;
+
+        }
+
+        div.caja {
+            border: 25px;
+            border-style: solid;
+            border-color: brown;
+            padding: 15px;
+            background-color: rgb(248, 232, 103);
+            margin: 20px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <h1 id="title" class="encabezados">-Fondo de Bikini-</h1>
+    <div class="caja letras">
+        Fondo de Bikini (Bikini Bottom, en inglés) es una ciudad ficticia de la serie animada Bob Esponja de
+        Nickelodeon. Localizada en el fondo del Océano Pacífico, ahí es donde viven los habitantes de la serie y también
+        se realizan todos los episodios de Bob Esponja.
+    </div>
+
+
+    <h2 class="encabezados">Personajes principales</h2>
+    <ul class="square letras">
+        <li>Bob Esponja</li>
+        <li>Patricio Estrella</li>
+        <li>Calamardo Tentáculos</li>
+        <li>Don Cangrejo</li>
+        <li>Arenita</li>
+        <li>Gary</li>
+    </ul>
+    <div class="absolute">
+        <table>
+            <tr>
+                <td>
+                    <img src="https://static2.abc.es/media/play/2020/06/15/bobesponja-k1pG--1200x630@abc.jpg"
+                        alt="Bob Esponja" height="200" />
+                </td>
+                <td>
+                    <img src="https://areajugones.sport.es/wp-content/uploads/2020/08/Patricio-1080x609.jpeg"
+                        alt="Patricio Estrella" height="200" />
+                </td>
+                <td>
+                    <img src="https://pbs.twimg.com/media/EuSI_gYXUAYyfgg?format=jpg&name=large"
+                        alt="Calamardo Tentáculos" height="200" />
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <img src="https://sm.ign.com/t/ign_latam/screenshot/default/doncangrejo2_1ns1.1280.jpg"
+                        alt="Don Cangrejo" height="200" />
+
+                </td>
+                <td>
+                    <img src="https://media.sabes.cl/2021/05/maxresdefault-1-1-media-1270x727.jpg.webp"
+                        alt="Arenita Mejillas" height="200" />
+
+                </td>
+                <td>
+                    <img src="http://www.bobesponjaweb.com/wp-content/uploads/2014/11/Gary-2.jpg" alt="Gary"
+                        height="200" />
+
+                </td>
+            </tr>
+        </table>
+
+
+    </div>
+    <p><iframe src="https://open.spotify.com/embed/playlist/6eHmU8c8wVP8ieLesU955b" width="100%" height="380"
+            frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe></p>
+
+    <p><a class="letras" href="https://bobesponja.fandom.com/wiki/Bob_Esponja_Wiki" target="_blank">Si quieres saber más
+            visita la wiki oficial</a></p>
+
+
+
+
+
+
+
+</body>
+
+
+</html>
