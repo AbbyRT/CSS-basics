@@ -1,0 +1,33 @@
+/* para asegurar que la hoja este bien enlazada:
+es importante usar ; */
+/* body{
+    background-color:lightseagreen;
+} */
+
+/* para seleccionar por el id usar # , tiene mas importancia que un selector de etiqueta*/
+#title{
+    color:lightseagreen; /* se recomiendo en codigo hexadecimal o rgb */
+    text-align: center;/* alinea texto en el centro */
+
+}
+.p-large{/* esta es una clase */
+    font-size: 32px ;
+
+}
+/* cada elemento puede tener MAS DE UNA CLASE */
+/* p{
+  color: lightsalmon;
+  background-color: aquamarine;  
+} */
+/* el estilo se aplican a todas las P */
+/* id tiene mas peso que clase */
+.p-green{/* esta es otra clase */
+    color:royalblue;
+    background-color: greenyellow;
+    /* font-size: 32px ; *//* para aumentar el tamaño de letra */
+}
+/* solo se aplica a la clasde p-green */
+.p-purple{
+    color:pink;
+    background-color: lightseagreen;
+}

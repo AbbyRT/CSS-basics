@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <title>Aprendiendo CSS 1</title>
+</head>
+<!-- como cargar estilos
+1)crear etiquete tipo style, y ahi se anota en CSS, no es muy usual
+a)selector:etiqueta que queremos modificar (pe h1)
+2) creando una hoja estilos aparte .css y enlazandola, los estilos se enlazan dentro del HEAD
+se usa href
+REL: que tipo de atributo es, en este caso stylesheet
+type:text/css
+!! es posible cargar mas de una hoja de estilos
+con link tambien se enlazan los fondos de fonts de google
+es recomendable usar las menos posibles hojas css, se evita que hagan mcuchas petiiones http-->
+
+<body>
+    <!--     <style> 
+        h1{
+            color:blueviolet;
+        }
+        p {
+            color:cornflowerblue;
+            /* el estilo se aplica a TODOS los parrafos */
+        }
+
+    </style> -->
+    <!-- id para hacer referencia al elemento y en javascript, tiene que ser unico, las clases se pueden repetir -->
+    <!-- se puede aplicar el estilo directamente en html con css, esta tiene mas peso -->
+    <h1 id="title" style="color:blueviolet;">Aprendiendo CSS</h1>
+    <p class="p-large p-green"><!-- tiene mas de una clase...separadas por espacios -->
+        <!-- p para parrafo la clase es para distinguirlo d otros parrafos -->
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, modi quasi nemo necessitatibus numquam voluptatum
+        consequuntur ea fuga praesentium repudiandae earum error commodi omnis nulla eum quisquam sed nisi autem?
+    </p>
+    <h3>Subtitulo</h3>
+    <p class="p-large p-purple">
+        <!-- p para parrafo -->
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, modi quasi nemo necessitatibus numquam voluptatum
+        consequuntur ea fuga praesentium repudiandae earum error commodi omnis nulla eum quisquam sed nisi autem?
+    </p>
+    <!-- selectotr de etiqueta, selector de clase, importa el orden de las clases -->
+</body>
+
+</html>
