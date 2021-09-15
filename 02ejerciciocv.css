@@ -1,0 +1,48 @@
+body{
+    background-color:rgba(238,238,238,255);
+
+}
+.title{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    text-align: center;
+    margin-bottom: 0;
+   
+}
+.p1{
+    background-color: silver;
+    padding:0, auto;
+    margin-top: 0;
+
+}
+.rojo{
+    background-color: rgba(136,136,136,255);
+    color: red;
+    font-size:25px;
+    font-weight:bold;
+}
+.letras{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.morado{
+    color:purple;
+    font-size:25px ;
+    background-color:#a8a8a8;
+    font-weight:bold;
+}
+.main{
+    background-color: rgba(204,204,204,255);
+}
+.resal{
+    color:rgba(0,0,255,255);
+    font-weight:bold;
+    text-decoration: underline;
+}
+.verde{
+    color: green;
+}
+.fin{
+    text-align: right;
+    background-color: white;
+}

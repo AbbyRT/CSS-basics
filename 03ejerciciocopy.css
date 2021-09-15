@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(195, 219,235);
+}
+.inicio{
+    text-indent: 40px;
+}
+
+.title{
+    text-align: right;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.subtitles{
+    font-family: 'Roboto Mono', monospace;
+
+}
+.extra{
+    font-size: 35px;
+}
+.texton{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rojo{
+    color: hsl(0, 92%, 50%);
+    font-family:"Comic Sans MS", cursive, sans-serif;
+}
+.naranjas{
+    color: rgb(238, 76, 17);
+    font-weight: bold;
+}
+.naranjal{
+    color:rgb(248, 163, 6);
+    
+}
+.subray{
+    color:green;
+    background-color: white;
+    font-style: italic;
+}
+.fin{
+    font-style: italic;
+    text-align: center;
+    font-size: 15px;
+}
+

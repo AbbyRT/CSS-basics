@@ -1,0 +1,51 @@
+body{
+    /* background-color: coral; */
+    /* background-image: url("https://preview.redd.it/405vjymhesg51.jpg?auto=webp&s=67170eeba4cc678e2dd2d663668960d1da9c46b5"); */
+    /* background-size: cover;  *//* cover estira la imagen */
+    background-image: url("https://image.freepik.com/free-vector/stylish-hexagonal-line-pattern-background_1017-19742.jpg");
+}
+.title{
+    text-align:center;
+    color:rgb(255, 248, 229);
+    background-color:rgb(0, 161,157);
+    border: 5px solid rgb(224, 93, 93);/* propiedades:color, num de pixeles, tipo de borde */
+    /* dotted, dashed */
+    /* con margen se pueden separar elementos */
+    margin:30px ;
+    padding: 20px;
+}
+/* con padding genera espacio dentro del elemento , entre contenido y borde, da espacio entre elemento y borde*/
+/* margin espacio entre elementos */
+.subtitle{
+    background-color:rgb(224, 93, 93);
+    color:rgb(255, 248, 229);
+    text-align: center;
+    padding: 20px;
+    margin:30px ;
+}
+#caja, #caja2{ /* para compartir estilos */
+    background-color:seagreen;
+
+}
+#caja p, #caja2 p{
+    color: sandybrown;
+    /* aplica estilo a parrafo en especifico */
+}
+
+#caja{
+    width: 400px ;
+    height: 200px;
+    /* el texto se ajusto */
+    /* text-align: centra el texto dentro de la caja */
+    /* usando el margen podemos centrar la caja, el div caja */
+    margin:0 auto; /* 0 arriba y abajo, auto derecha, izquierda, con auto se calcula automaticamente, estos valores sirven para centrar */
+    /* margin-top: 100px;
+    margin-bottom: 50px; */
+    /* cuando solo se pone un valor, se aplcia los 4 lados */
+    /* si se ponen los 4: se da prioridad a: 1)arriba 2)derecha 3)abajo 4)izq */
+}
+
+/* clase ., id #, para hacer referencia a los p, solo colocar eso */
+/* podemos utilizar la misma clase para dif elementos, la id es unica */
+/* el div es una caja para que se afecte al elemento por fuera, a los elmentos en div les podemos dar u alto y un larog */
+/* el parrafo se adapta al espacio que tenga disponible en la pantalla */
