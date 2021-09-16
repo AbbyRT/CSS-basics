@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgba(211,211,211,255);
+
+}
+.title{
+    text-align: center;
+    
+}
+.gris{
+    background-color: rgba(128,128,128,255);
+    color: white;
+}
+.rojo{
+    color:red;
+    font-style: italic;
+}
+.res{
+    background-color: white;
+    font-weight: bold;
+}
+.despeje{
+    clear: both;
+    float: none;
+    /* despues de usar un float es necesario usar un div vacio con esto para volver a modificar la estructura del documento */
+
+}
+.inicio{
+    text-indent: 20px; /* para poner "sangría a lso textos" */
+}
+img{
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin: 20px;
+    /* El float permite acomodar la imagen */
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+    /* margin para centrar elementos */
+}
+.cuerpo{
+    width: 80%;
+    margin: 0 auto;
+}

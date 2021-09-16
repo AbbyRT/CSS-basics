@@ -1,0 +1,16 @@
+.title{
+    font-family: 'MedievalSharp', cursive;
+}
+.subt{
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 600;
+}
+
+.peque{
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 400;
+}
+/* Cuando se usa google fonts, se debe especificar el bold, si quiero usar algunas en negritas habria que elegirla de la lista de google, por ejemplo, la normal es la de 400, 600 bold */
+.yo{
+    font-family: 'Great Vibes', cursive;
+}
