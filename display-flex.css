@@ -1,0 +1,33 @@
+.container{
+    width: 90%;
+    /* min-height: 500px; *//* que lo miniño que se reduzca sea 500px */
+    height: 500px;
+    margin: 0 auto;/* para centrar */
+    border: 2px solid blueviolet;
+    /* el display flex se indica en el padre y afecta a los hijos */
+    display: flex;
+    justify-content: space-around;/* ordenar elementos de manera horizontal */
+    flex-wrap: wrap;/* los elementos van bajando si no caben */
+    align-items:flex-start;/* ordenar los elementos de forma vertical */
+
+}
+.caja{/* tsmaño de cada elemento */
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caja1{
+    border: 2px solid palevioletred;
+}
+.caja2{
+    border: 2px solid greenyellow;
+    align-self: flex-end;/* se pueden alinear los elementos de manera independiente */
+}
+.caja3{
+    border: 2px solid lightskyblue;
+}
+.caja4{
+    border: 2px solid orange;
+}
